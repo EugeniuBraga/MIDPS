@@ -1,0 +1,15 @@
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\CodeModule\bin\Debug\CodeModule.dll
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\CodeModule\bin\Debug\CodeModule.pdb
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.csprojResolveAssemblyReference.cache
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.dll
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.pdb
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\CodeModule\bin\Debug\CodeModule.dll
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\CodeModule\bin\Debug\CodeModule.pdb
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.csprojResolveAssemblyReference.cache
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.dll
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.pdb
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\CodeModule\bin\Debug\CodeModule.dll
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\CodeModule\bin\Debug\CodeModule.pdb
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.csprojResolveAssemblyReference.cache
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.dll
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\CodeModule\obj\Debug\CodeModule.pdb

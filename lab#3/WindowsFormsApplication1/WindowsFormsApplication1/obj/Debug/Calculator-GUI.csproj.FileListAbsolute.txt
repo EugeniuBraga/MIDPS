@@ -1,0 +1,36 @@
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CodeModule.dll
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CodeModule.pdb
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Calculator-GUI.csprojResolveAssemblyReference.cache
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Botoroga Artiom\Desktop\lab4\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Calculator-GUI.csproj.GenerateResource.Cache
+C:\Users\Botoroga Artiom\Desktop\lab3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Botoroga Artiom\Desktop\lab3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Botoroga Artiom\Desktop\lab3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CodeModule.dll
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CodeModule.pdb
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Calculator-GUI.csprojResolveAssemblyReference.cache
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Botoroga Artiom\Desktop\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Calculator-GUI.csproj.GenerateResource.Cache
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CodeModule.dll
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CodeModule.pdb
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Calculator-GUI.csprojResolveAssemblyReference.cache
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Eugen\Desktop\MIDPS-original-labs-master\lab#3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Calculator-GUI.csproj.GenerateResource.Cache
