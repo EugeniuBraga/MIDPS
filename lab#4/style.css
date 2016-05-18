@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body {
+    /*background: url(Anonym.jpg) no-repeat;*/
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	background-color:#000;
+	background-repeat:no-repeat;
+	color:#fff;
+}
+
+#avatar{
+		width: 210px; 
+		background: #9fa8b0;
+		padding: 2px;
+	    border: 1px solid #000;
+		position:absolute;
+	    top: 50px; 
+	    right:75px;
+	    opacity:1;
+		display:none;/*редактировать для анимации*/
+	   }
+.rotate {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+    transition:2s;
+}
+@font-face {
+    font-family: user_name; /* Имя шрифта */
+    src: url(386.ttf); /* Путь к файлу со шрифтом */
+   }
+ #avatar  p
+ {
+	 font-size:100%;
+	color:#45688E;
+	border: 1px solid #45688E;
+	margin-bottom:-1px;
+
+ }
+ #avatar #name
+   {
+	   color:#45688E;
+	   /*font: normal small-caps 40px/20px fantasy;*/
+       font-family:user_name;
+text-align:center;
+   }
+   input[type=text],[type=password] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+input[type=text]:focus,input[type=password]:focus{
+	background-color:#ccc;
+}
+#header
+{
+	width:100%;
+	height:60px;
+	background:rgba(00,11,22,33);
+	color:#9fa8b0;
+	font-family:Verdana, Geneva, sans-serif;
+	position:relative;
+	box-shadow:0px 5px 30px black;
+}
+#header .logo {
+	background: url(/images/logo_header.png) no-repeat;
+	height:200px;
+	padding: 0px 0px 0px 70px;
+	float: left;
+}
+#header #left
+{
+	float:left;
+}
+#header #left label
+{
+	position:absolute;
+	top:5px;
+	left:100px;
+	font-size:35px;
+	text-shadow:5px 5px 7px #fff;
+}
+#header #right
+{
+	float:right;
+}
+#header #right #sign
+{
+	position:absolute;
+	top:20px;
+	right:100px;
+	color:#fff;
+}
+
+#header #right #sign a
+{
+	color:#00a2d1;
+}
+#header #right #sign .header_avatar
+{
+	width:58px;
+	height:58px;
+	float:left;
+	margin:-20px 0 0 -70px;
+	border-radius:100%;
+    border:1px solid #fff; 
+	position:absolute;
+	box-shadow:1px 0 10px #fff;
+}
+#header #right #sign::after
+{
+	content:" ";
+	position:absolute;
+	top:7px;
+    right:-20px;
+	border:8px solid #fff;
+	border-color:#fff transparent transparent transparent;
+}
+#header #right #sign ul
+{
+	display:none;
+	list-style:none;
+}
+#header #right #sign:hover ul
+{
+	display:block;
+	background-color:#575757;
+}
+#header #right #sign li a:hover 
+{
+	background:rgba(00,11,22,33);
+}
+#header #right #sign li a
+{
+	width:100%;
+	text-decoration:none;
+	display:block;
+	color:#fff;
+	background:#575757;
+	padding:10px;	
+	border-bottom:0.5px solid #666;
+}
+/* css for home page */
+/* css for jquery modal form*/
+#modal_form {
+	width: auto; 
+	height: auto; /* Рaзмеры дoлжны быть фиксирoвaны */
+	background-size: cover; /* Масштабируем фон */
+	border-radius: 5px;
+	border: 3px #000 solid;
+	background: #fff;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	top: 210px; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+    left: 50%; /* пoлoвинa экрaнa слевa */
+	margin-top: -150px;
+	margin-left: -150px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	padding: 20px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+#modal_form #modal_close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+/* Пoдлoжкa */
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color:#000; /* чернaя */
+	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}
+/*css for jquery for modal form*/
+#regForm{
+    -webkit-transform: rotate(360deg); /* Для Safari, Chrome, iOS */
+	  transition:1s;
+width:400px;
+height:250px;
+border: 2px solid #45688E;
+margin:auto;
+margin-top:100px;
+background-color:rgba(157,177,204,0.7);
+}
+#regForm label
+{
+	color:#DFDFDF;
+	font-size:25px;
+	padding:5px;
+}
+#regForm input[type=text],[type=password]
+{
+	border-color:#9fa8b0;
+	width:200px;
+	height:30px;
+}
+#upload  {
+    width: 250px;
+    height: 51px;
+    background: url(https://lh6.googleusercontent.com/-dqTIJRTqEAQ/UJaofTQm3hI/AAAAAAAABHo/w7ruR1SOIsA/s157/upload.png) no-repeat;
+    background-position:-3px -1px;
+	overflow: hidden;
+	text-align:right;
+	text-shadow: 0 0 5px #000;
+	margin:20px 2px;
+	background-color:white;
+	border-radius:5%;
+	}
+#upload input {
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+/*------Button ----*/
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*-------Button End----*/
+/*------content----*/
+#content
+{
+	padding:1%;
+	width:40%;
+	height:76%;
+	background:#fff;
+	border-radius:2%;
+	margin:2.5% auto auto auto;
+	background:rgba(255,255,255,0.6);
+}
+#avatar_profile
+{
+    width: 210px; 
+	background: #9fa8b0;
+	padding: 2px;
+    border: 1px solid #000;	
+    top: 50px; 
+    right:75px;
+}
+#content .name
+{
+	text-shadow:0 0 8px;
+	background:rgba(00,11,22,33);
+	width:216px;
+	display:block;
+	position:relative;
+	box-shadow:0 4px 5px #000;
+	
+}
+#content  .edit
+{
+	width:58px;
+	height:98%;
+	background: rgb(159, 168, 176);
+	right:0;
+	top:0;
+	position:absolute;
+	border:1px solid #000;
+}
